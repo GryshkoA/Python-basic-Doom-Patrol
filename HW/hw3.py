@@ -102,8 +102,8 @@ print("Anna has %s apples and %s peaches." % (a, b))
 
 # 11*. With variable substitutions by name (hint: by using dict)
 name = "red"
-color = "green"
-data_dict = {"ap": name, "pch": color}
+colour = "green"
+data_dict = {"ap": name, "pch": colour}
 print('Anna has %(ap)s apples and %(pch)s peaches.' % data_dict)
 # Anna has red apples and green peaches.
 
@@ -116,7 +116,8 @@ for num in range(10):
     else:
         lst.append(num ** 4)
 print(lst)
-# 2. Convert (1) to list comprehension
+
+# 12. Convert (1) to list comprehension
 list_comprehension = [num ** 2 if num % 2 == 1 else num ** 4 for num in range(10)]
 print(list_comprehension)
 # [0, 1, 16, 9, 256, 25, 1296, 49, 4096, 81]
