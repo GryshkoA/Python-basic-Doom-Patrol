@@ -4,7 +4,7 @@ class Vehicle:
         self.max_speed = max_speed
         self.mileage = mileage
 
-    def brake_max_speed(self):
+    def info_max_speed(self):
         print(f'You have {self.max_speed}')
 
 
